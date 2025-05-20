@@ -1,0 +1,63 @@
+ЛИЦЕНЗИЯ / LICENSE / ライセンス
+
+---
+
+© Moxxaart, 2025  
+Все права защищены.
+
+Проект находится в **стадии активной разработки** и предоставляется исключительно **для ознакомления**.  
+Автор не несет ответственности за возможную нестабильную работу, ошибки или потерю данных до официального релиза.  
+
+Все материалы (код, графика, аудио, тексты и др.) являются интеллектуальной собственностью автора.  
+Запрещено копировать, распространять или использовать материалы проекта (полностью или частично) без письменного разрешения.
+
+---
+
+© Moxxaart, 2025  
+All rights reserved.
+
+This project is in **active development** and is provided **for testing and review purposes only**.  
+The author assumes no responsibility for bugs, malfunctions, or data loss prior to an official release.
+
+All materials (code, graphics, audio, text, etc.) are the intellectual property of the author.  
+Reproduction, redistribution, or use of any part of the project without written permission is prohibited.
+
+---
+
+© Moxxaart, 2025  
+全著作権所有。
+
+本プロジェクトは**開発中**であり、**試験および閲覧目的**でのみ提供されています。  
+正式なリリース前に発生する不具合、誤動作、データ損失などについて、著者は一切の責任を負いません。
+
+すべての素材（コード、グラフィック、音声、テキストなど）は著者の知的財産です。  
+著者の書面による許可なしに、本プロジェクトの一部または全部を複製、配布、使用することは禁止されています。
+
+
+---
+
+This project uses third-party software:
+
+**Newtonsoft.Json**  
+Copyright © James Newton-King  
+Licensed under the MIT License.
+
+The MIT License (MIT)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the “Software”), to deal
+in the Software without restriction, including without limitation the rights  
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell  
+copies of the Software, and to permit persons to whom the Software is  
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in  
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR  
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,  
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE  
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER  
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,  
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN  
+THE SOFTWARE.
