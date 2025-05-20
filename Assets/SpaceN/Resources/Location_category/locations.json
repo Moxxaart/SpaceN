@@ -1,0 +1,5 @@
+{
+  "global_locations": ["solar_system", "andromeda_system", "centauri_system", "interstellar_space"],
+  "locations": ["earth", "moon", "mars", "asteroid_belt", "inner_system"],
+  "sublocations": ["destroyed_station", "mining_ship", "wreckage"]
+}

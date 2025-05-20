@@ -1,0 +1,200 @@
+{
+  "events": [
+    {
+      "id": "evt_abadoned_station",
+      "description": "evt_abadoned_station_desc",
+      "image": "abadoned_station",
+      "location": {},
+      "effects": [],
+      "options": [
+        {
+          "id": "evt_abadoned_station_opt1",
+          "target": "evt_destroyed_ship",
+          "conditions": [],
+          "effects": []
+        },
+        {
+          "id": "evt_abadoned_station_opt2",
+          "target": "evt_cargo_bay",
+          "conditions": [],
+          "effects": []
+        },
+        {
+          "id": "evt_abadoned_station_opt3",
+          "target": "evt_mining_ship",
+          "conditions": [
+            {
+              "type": "HasAtLeast",
+              "parameter": "Money",
+              "value": 100
+            }
+          ],
+          "effects": [
+            {
+              "type": "DecreaseParameter",
+              "parameter": "Money",
+              "value": 100
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "evt_destroyed_ship",
+      "description": "evt_destroyed_ship_desc",
+      "image": "destroyed_ship",
+      "location": {},
+      "effects": [],
+      "options": [
+        {
+          "id": "evt_destroyed_ship_opt1",
+          "target": "evt_explore_destroyed_ship",
+          "conditions": [],
+          "effects": []
+        },
+        {
+          "id": "evt_destroyed_ship_opt2",
+          "target": "evt_abadoned_station",
+          "conditions": [],
+          "effects": []
+        }
+      ]
+    },
+    {
+      "id": "evt_explore_destroyed_ship",
+      "description": "evt_explore_destroyed_ship_desc",
+      "image": "explore_destroyed_ship",
+      "location": {
+        "global": "solar_system",
+        "local": "earth",
+        "sub": "destroyed_station"
+      },
+      "effects": [],
+      "options": [
+        {
+          "id": "evt_explore_destroyed_ship_opt1",
+          "target": "evt_abadoned_station",
+          "conditions": [],
+          "effects": [
+            {
+              "type": "IncreaseParameter",
+              "parameter": "Money",
+              "value": 50
+            }
+          ]
+        },
+        {
+          "id": "evt_explore_destroyed_ship_opt2",
+          "target": "evt_destroyed_ship",
+          "conditions": [],
+          "effects": []
+        },
+        {
+          "id": "evt_explore_destroyed_ship_opt3",
+          "target": "evt_mining_ship",
+          "conditions": [],
+          "effects": []
+        }
+      ]
+    },
+    {
+      "id": "evt_cargo_bay",
+      "description": "evt_cargo_bay_desc",
+      "image": "cargo_bay",
+      "location": {
+        "global": "solar_system",
+        "local": "earth",
+        "sub": "destroyed_station"
+      },
+      "effects": [],
+      "options": [
+        {
+          "id": "evt_cargo_bay_opt1",
+          "target": "evt_abadoned_station",
+          "conditions": [],
+          "effects": []
+        }
+      ]
+    },
+    {
+      "id": "evt_mining_ship",
+      "description": "evt_mining_ship_desc",
+      "image": "cargo_bay",
+      "location": {
+        "global": "solar_system",
+        "local": "earth",
+        "sub": "destroyed_station"
+      },
+      "effects": [],
+      "options": [
+        {
+          "id": "evt_mining_ship_opt1",
+          "target": "evt_event_002",
+          "conditions": [],
+          "effects": []
+        },
+        {
+          "id": "evt_mining_ship_opt2",
+          "target": "evt_abadoned_station",
+          "conditions": [
+            {
+              "type": "HasAtLeast",
+              "parameter": "Money",
+              "value": 100
+            }
+          ],
+          "effects": [
+            {
+              "type": "DecreaseParameter",
+              "parameter": "Money",
+              "value": 100
+            }
+          ]
+        },
+        {
+          "id": "evt_mining_ship_opt3",
+          "target": "evt_explore_belt",
+          "conditions": [],
+          "effects": []
+        }
+      ]
+    },
+    {
+      "id": "evt_explore_belt",
+      "description": "evt_explore_belt_desc",
+      "image": "mining_ship",
+      "location": {
+        "global": "solar_system",
+        "local": "earth",
+        "sub": "destroyed_station"
+      },
+      "effects": [],
+      "options": [
+        {
+          "id": "evt_explore_belt_opt1",
+          "target": "evt_mining_ship",
+          "conditions": [],
+          "effects": []
+        },
+        {
+          "id": "evt_explore_belt_opt2",
+          "target": "evt_test1",
+          "conditions": [],
+          "effects": []
+        }
+      ]
+    },
+    {
+      "id": "evt_testnodeid",
+      "description": "evt_testnodeid_desc",
+      "image": "default",
+      "location": {
+        "global": "solar_system",
+        "local": "earth",
+        "sub": "destroyed_station"
+      },
+      "effects": [],
+      "options": []
+    }
+  ]
+}

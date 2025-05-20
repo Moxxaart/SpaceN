@@ -1,0 +1,14 @@
+{
+  "solar_system": "Солнечная система",
+  "andromeda_system": "Система Андромеда",
+  "centauri_system": "Система Центавра",
+  "interstellar_space": "Межзвездное пространство",
+  "earth": "Земля",
+  "moon": "Луна",
+  "mars": "Марс",
+  "asteroid_belt": "Астероидный пояс",
+  "inner_system": "Внутрисистемное пространство",
+  "destroyed_station": "Разрушенная станция",
+  "mining_ship": "Добывающий корабль",
+  "wreckage":  "Обломки"
+}
