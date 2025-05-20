@@ -34,7 +34,7 @@ Since both events and localized strings are stored in JSON files and events are 
 
 ## 🎥 Video Demo
 
-[Video link goes here]
+[[Video link goes here](https://youtu.be/syBOmy79DQo)]
 
 ---
 
