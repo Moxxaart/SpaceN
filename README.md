@@ -1,6 +1,8 @@
 ![Screenshot 1](screenshots/screenshot1.png)
 ![Screenshot 2](screenshots/screenshot2.png)
 
+🌐 Available in: 🇬🇧 English | 🇷🇺 Русский | 🇯🇵 日本語
+
 # Space Colonization Event System (Working Title)
 
 > ⚠️ **Project is under active development**
@@ -60,6 +62,9 @@ Since both events and localized strings are stored in JSON files and events are 
 - First story chapter content
 - Generate new event art via Midjourney
 
+Project Size
+Game code: ~800 lines
+Event editor code: ~2000 lines
 ---
 
 ## 🌍 Русский
@@ -101,6 +106,9 @@ Since both events and localized strings are stored in JSON files and events are 
 - Глава 1
 - Рендеринг новых картинок через Midjourney
 
+Текущий размер проекта
+Код игры — около 800 строк
+Код редактора событий — около 2000 строк
 ---
 
 ## 🇯🇵 日本語
@@ -144,7 +152,7 @@ Since both events and localized strings are stored in JSON files and events are 
 - 第一章のシナリオ
 - Midjourney を使ったイベント画像の作成
 
----
+現在のプロジェクト規模
+ゲーム部分のコード：約 800行
 
-## 📁 File Structure (Simplified)
-
+イベントエディタのコード：約 2000行
