@@ -1,9 +1,9 @@
 ![Screenshot 1](screenshots/screenshot1.png)
 ![Screenshot 2](screenshots/screenshot2.png)
 
-🌐 Available in: 🇬🇧 English | 🇷🇺 Русский | 🇯🇵 日本語
+**🌐 Available in: [🇬🇧 English](#english-version) | [🇷🇺 Русский](#русская-версия) | [🇯🇵 日本語](#日本語バージョン)**
 
-# Space Colonization Event System (Working Title)
+### English Version
 
 > ⚠️ **Project is under active development**
 
@@ -67,7 +67,7 @@ Game code: ~800 lines
 Event editor code: ~2000 lines
 ---
 
-## 🌍 Русский
+### Русская версия
 
 > ⚠️ **Проект находится в активной разработке**
 
@@ -111,7 +111,7 @@ Event editor code: ~2000 lines
 Код редактора событий — около 2000 строк
 ---
 
-## 🇯🇵 日本語
+### 日本語バージョン
 
 > ⚠️ **現在アクティブに開発中のプロジェクトです**
 
