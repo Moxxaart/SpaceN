@@ -117,7 +117,7 @@ Event editor code: ~2000 lines
 
 メインのバージョン管理には **Unity Version Control** を使用しており、GitHub のバージョンは最新ではない可能性があります。必要に応じて一時的な招待リンクを提供できます。詳細はメールでご連絡ください。
 
-このプロジェクトは、**The Life and Suffering of Sir Brante**、**The Crust**、**Ixion** のイベントシステム、および **スペースレンジャー** のテキストクエストからインスピレーションを得ています。
+このプロジェクトは、**The Life and Suffering of Sir Brante**、**The Crust**や**Ixion** のイベントシステム、および **スペースレンジャー** のテキストクエストからインスピレーションを得ています。
 
 ### ゲームの概要：
 
